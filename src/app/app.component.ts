@@ -9,7 +9,7 @@ import { NavbarComponent } from "./navbar/navbar.component";
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [IonRouterOutlet, CommonModule, RouterOutlet, NavbarComponent]
+    imports: [ CommonModule, RouterOutlet, NavbarComponent]
 })
 export class AppComponent {
   title = 'projet';
